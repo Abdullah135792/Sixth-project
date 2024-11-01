@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ffffff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center ;
+}
+.contaner{
+    width: 40%;
+ height: 460px;
+    margin: auto;
+    display: flex;
+  
+   border-radius: 20px;
+    background-color:#ffffff;
+    box-shadow: 1px 1px 10px black;
+
+}
+.conter{
+    
+    width: 50%;
+    background-image: linear-gradient(#6743ff, #322bea);
+    border-radius: 20px;
+    height: 460px;
+}
+.conter h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    opacity: 0.6;
+}
+.text{
+    background-color:#4924cf;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 100px;
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+.text h1{
+    padding-top: 50px;
+    font-size: 80px;
+}
+.text p{
+opacity: 0.5;
+}
+.minconter{
+    text-align: center;
+    margin-top: 20px;
+}
+.minconter h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.minconter p{
+    
+    width: 67%;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: white;
+    opacity: 0.7;
+}
+.textconter{
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 460px;
+}
+.textconter h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.a,.b,.d,.c{
+    width: 80%;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-left: 30px;
+    position: relative;
+    
+    border-radius: 10px;
+}
+.a{
+    background-color: #fff6f5;
+}
+.b{
+    background-color: #fffbf2;
+}
+.d{
+    background-color: #f3f3fd;
+}
+.c{
+    background-color: #f2fbfa;
+}
+ul{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.p1{
+    position: absolute;
+    left: 40px;
+}
+.p2{
+    position: absolute;
+    right: 50px;
+}
+.p3{
+    opacity: 0.5;
+}
+.a ul .p1{
+    color: #eb8e91;
+    
+}
+.b ul .p1{
+    
+    color: #f8deab;
+}
+.d ul .p1{
+    color: #666dc4;
+}
+.c ul .p1{
+    color: #7ed2be;
+}
+.bot{
+    background-color: #303b59;
+    color: white;
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.bot:hover{
+    background-color: #4924cf;
+}
+.attribution{
+    position: absolute;
+    bottom: 0;
+  
+    
+}
+@media (  min-width: 100px) and (max-width:1000px){
+    
+    .contaner{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display:block;
+        border-radius: 0;
+        
+        background-color:#ffffff;
+        
+    }
+    .conter{
+        
+        width: 100%;
+        background-image: linear-gradient(#6743ff, #322bea);
+        border-radius:0 0 30px 30px;
+        height: 300px;
+        position: relative;
+        bottom: 41px;
+        margin-bottom: -50px;
+        
+    }
+    .conter h2{
+        text-align: center;
+        padding-top: 35px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .text{
+        background-color:#4924cf;
+        height: 120px;
+        width: 120px;
+        margin: auto;
+        border-radius: 100px;
+        text-align: center;
+        color: aliceblue;
+       
+    
+    }
+    .text h1{
+        padding-top: 20px;
+        font-size: 50px;
+    }
+
+.minconter{
+    text-align: center;
+    margin-top: 7px;
+}
+.minconter h1{
+    color: white;
+    margin-bottom: 7px;
+}
+    .textconter{
+        width: 100%;
+        background-color:#ffffff;
+        border-radius: 0 ;
+       height: 460px;
+   
+
+    }
+    .attribution{
+        position: absolute;
+        bottom:-135px;
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+        color:white;
+        width: 100%;
+       
+    }
+    a{
+   text-decoration: none;
+   
+   }
+   .a,.b,.d,.c{
+    width: 80%;
+    margin-bottom: 30px;
+    padding: 15px;
+    margin-left: 30px;
+    position: relative;
+    
+    border-radius: 10px;
+}
+.bot{
+    padding: 15px;
+    margin-top: 20px;
+}
+}
